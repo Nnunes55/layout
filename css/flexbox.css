@@ -5,3 +5,23 @@
     position: fixed;
     top: 0;
 }
+
+.cabechalho__pesquisar__item{
+    display: none;
+}
+
+.rodape__container{
+    display: flex;
+    /*flex-direction: column;
+    flex-wrap: wrap;*/
+    flex-flow: column wrap;
+}
+@media (min-width: 834px) {
+    .cabechalho__pesquisar__item{
+        display: block;
+    }
+
+    .rodape__container{
+        justify-content: space-between;
+    }
+}
